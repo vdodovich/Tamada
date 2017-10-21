@@ -110,7 +110,7 @@ a:focus {
 }
 .head .social-network svg {
   height: 4rem;
-  width: auto;
+  width: 4rem;
   fill: #eee;
 }
 .head .social-network svg:hover {
