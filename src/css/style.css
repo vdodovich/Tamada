@@ -107,13 +107,17 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-style: italic;
+}
+.head .social-network svg {
+  height: 4rem;
+  width: auto;
+  fill: #eee;
+}
+.head .social-network svg:hover {
+  fill: #eb2a46;
 }
 .head .social-network a {
-  margin-left: 1.5rem;
-}
-.head .social-network .link:hover {
-  text-decoration: underline;
+  margin-left: 2rem;
 }
 .discount {
   height: 35px;
@@ -252,26 +256,6 @@ footer .social-network .social-network-link {
   width: 2.6rem;
   margin-left: 1.2rem;
 }
-footer .social-network .network-vkontakte {
-  background-image: url(../images/icons/social-networks/vk.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-footer .social-network .network-vkontakte:hover {
-  cursor: pointer;
-  background-image: url(../images/icons/social-networks-hover/vk.svg);
-}
-footer .social-network .network-facebook {
-  background-image: url(../images/icons/social-networks/facebook-logo.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-footer .social-network .network-facebook:hover {
-  cursor: pointer;
-  background-image: url(../images/icons/social-networks-hover/facebook-logo.svg);
-}
 footer .social-network .network-youtube {
   background-image: url(../images/icons/social-networks/youtube.svg);
   background-repeat: no-repeat;
@@ -283,7 +267,6 @@ footer .social-network .network-youtube:hover {
   background-image: url(../images/icons/social-networks-hover/youtube.svg);
 }
 footer .social-network .network-instagram {
-  margin-left: 1.7rem;
   background-image: url(../images/icons/social-networks/instagram-logo.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -407,7 +390,6 @@ footer .social-network .network-instagram:hover {
   .head .social-network {
     min-height: 0;
     height: auto;
-    font-size: 1.8rem;
   }
   .discount {
     display: none;
