@@ -46,6 +46,9 @@ a:focus {
     display: block;
   }
 }
+.ml-null {
+  margin-left: 0 !important;
+}
 .head {
   height: 100vh;
   min-height: 600px;
@@ -398,6 +401,10 @@ footer .social-network .network-instagram:hover {
   .head .social-network {
     min-height: 0;
     height: auto;
+  }
+  .head .social-network svg {
+    height: 3.5rem;
+    width: 3.5rem;
   }
   .discount {
     display: none;
