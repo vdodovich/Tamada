@@ -38,6 +38,14 @@ a:focus {
     display: none;
   }
 }
+.hidden-lg {
+  display: none;
+}
+@media only screen and (max-width: 480px) {
+  .hidden-lg {
+    display: block;
+  }
+}
 .head {
   height: 100vh;
   min-height: 600px;
