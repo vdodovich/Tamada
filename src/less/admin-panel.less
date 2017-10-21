@@ -1,0 +1,95 @@
+.admin-panel {
+  height: 100vh;
+  background-image: url(../images/background/background-lg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  flex-direction:column;
+
+.admin-panel-form {
+  display: flex;
+  flex-direction: column;
+  .admin-password-input {
+    font-size: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom:0.8rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    color: @pink-color;
+    background-color: transparent;
+    border: 2px @pink-color solid;
+    border-radius: 100px;
+    text-align: center;
+    &::placeholder {
+      color: @pink-color;
+      font-style: italic;
+      text-align: center;
+    }
+
+    &::-moz-placeholder{
+      opacity: 1;
+      color: @pink-color;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+  .admin-password-button {
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom:0.8rem;
+    padding-left:1.5rem;
+    padding-right:1.5rem;
+    color: @pink-color;
+    background-color: transparent;
+    border: 2px @pink-color solid;
+    border-radius: 100px;
+
+    &:hover {
+      background-color: @pink-color;
+      color: @white-text-color;
+    }
+  }
+  .admin-form-error {
+    text-align: center;
+    color: @pink-color;
+    margin-top: 2rem;
+    font-style: italic;
+    visibility: hidden;
+  }
+}
+
+.entered-phone-numbers {
+  display: none;
+  overflow: auto;
+  align-self: center;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  width: 80%;
+
+  .phone-number-item {
+    margin-top: 2rem;
+    border: 2px @pink-color solid;
+    border-radius: 20px 0px 0px 20px;
+    background-color: rgba(238,238,238,.8);
+    padding: 1rem 2rem;
+    width: 20%;
+    min-width: 200px;
+    display: flex;
+    justify-content: space-between;
+
+    .close {
+      &:hover {
+        cursor: pointer;
+        color: @pink-color;
+      }
+    }
+  }
+}
+
+}

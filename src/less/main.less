@@ -1,0 +1,44 @@
+@import "_variables";
+@import "_fonts";
+
+:active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Roboto;
+  color: @text-color;
+  font-size: 2rem;
+}
+h1 {
+  font-size:6rem;
+}
+a {
+  color: @white-text-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+.hidden-xs {
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+
+@import "head";
+@import "discount";
+@import "prefer";
+@import "video";
+@import "call-me";
+@import "footer";
+@import "admin-panel";
+
+@import "_media";

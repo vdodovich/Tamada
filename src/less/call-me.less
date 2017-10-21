@@ -1,0 +1,60 @@
+.call-me {
+  margin-top:4rem;
+  font-size: 2.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  .call-me-form {
+    margin-top:2rem;
+    display: flex;
+    justify-content: center;
+    font-size:2rem;
+  input {
+    border: 2px @pink-color solid;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 2rem;
+    padding-left:1rem;
+    padding-top:0.8rem;
+    padding-bottom:0.8rem;
+    padding-right:2rem;
+    width: 15%;
+    min-width: 15rem;
+    color: @pink-color;
+    &::placeholder {
+      color: @pink-color;
+      opacity: 1;
+      font-style: italic;
+    }
+  }
+  .call-me-btn {
+    margin-left:2rem;
+    border: 2px @pink-color solid;
+    border-radius: 20px 0px 0px 20px;
+    color: @pink-color;
+    font-size: 2rem;
+    width: 15%;
+    min-width: 15rem;
+
+    &:hover {
+      background-color: @pink-color;
+      color: @white-text-color;
+    }
+  }
+
+  }
+  .call-me-result {
+    display: none;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: red;
+    font-style: italic;
+  }
+  .call-me-result-success {
+    display: none;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: green;
+    font-style: italic;
+  }
+}

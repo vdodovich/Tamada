@@ -1,0 +1,34 @@
+{
+  "name": "dstyle_resetCSS",
+  "homepage": "https://github.com/dstyle0210/reset.css",
+  "authors": [
+    "dstyle <dstyle0210@gmail.com>"
+  ],
+  "main": "reset.min.css",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "reset",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "resources"
+  ],
+  "_release": "534aa19fd5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "534aa19fd5c60a44e7d76331a04000d697bce630"
+  },
+  "_source": "https://github.com/dstyle0210/reset.css.git",
+  "_target": "*",
+  "_originalSource": "dstyle_resetCSS",
+  "_direct": true
+}

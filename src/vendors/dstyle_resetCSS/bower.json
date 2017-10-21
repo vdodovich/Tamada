@@ -1,0 +1,25 @@
+{
+  "name": "dstyle_resetCSS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dstyle0210/reset.css",
+  "authors": [
+    "dstyle <dstyle0210@gmail.com>"
+  ],
+  "main": "reset.min.css",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "reset",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "resources"
+  ]
+}
